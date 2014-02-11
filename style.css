@@ -544,6 +544,12 @@ footer .light h3 a:hover:after {
   -o-transition: width 0.4s;
   transition: width 0.4s;
 }
+footer .light a {
+  color: black;
+}
+footer .light a:hover {
+  text-decoration: underline;
+}
 footer .dark {
   padding: 54px 0 91px 0;
   background: #f46c0a;
