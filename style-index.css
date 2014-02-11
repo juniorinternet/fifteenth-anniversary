@@ -578,8 +578,10 @@ header .rocket-start .right-cloud {
 }
 .resp-menu {
   width: 250px;
-  height: auto;
-  background: #333;
+  height: 100%;
+  background: #1a1b29;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: bold;
   padding: 20px 20px 0 22px;
   position: fixed;
   top: 0;
@@ -619,7 +621,7 @@ header .rocket-start .right-cloud {
   position: relative;
 }
 .resp-menu a:after {
-    content: '';
+  content: '';
   width: 0;
   height: 1px;
   background: white;
@@ -653,7 +655,7 @@ header .rocket-start .right-cloud {
 .resp-menu .menu-icon {
   width: 40px;
   height: 40px;
-  background: red;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACgAAAAqCAIAAABOVI4xAAAAuklEQVRYw2P5X8EwIICFgWHU4lGLRy0e6hb/H3lBjcPLWuutPv+m1Fm8rH+uBR4jzceU24rfEBY8jqWKj0m2GFcQjWan0ZKL4nysvYE6+fhqAM58zEjjfMxIWuKiVj7+T2ocXwk4PsIS12gBQjeLdTdaUp6qjYU/rXW8iCOo/9OwPr74nheX+bStj//8YyQ5cV30o0I+fvaN/f+AJC4prp+j+XgwFJmMo0E9zH3MyfZvYCyu2sY7suIYAFMsSrbBKe6qAAAAAElFTkSuQmCC');
   position: absolute;
   top: 0;
   right: -40px;
