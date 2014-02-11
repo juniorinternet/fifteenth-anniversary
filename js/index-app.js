@@ -38,17 +38,32 @@ $(document).ready(function() {
   });
 
 
-  var menu = $('.fixed-menu');
+  var menu = $('.menu');
   var lastScrollTop = 0;
   $(window).scroll(function () {
     var scrollTop = $(window).scrollTop();
 
     if (scrollTop > lastScrollTop) {
-      menu.removeClass('visible');
-    } else if (scrollTop < lastScrollTop && scrollTop > 350) {
-      menu.addClass('visible');
+      menu.addClass('invisible');
     } else {
-      menu.removeClass('visible');
+      menu.removeClass('invisible');
+    }
+
+    if (scrollTop > 20) {
+      setTimeout(function() {
+        menu.addClass('white');
+      }, 400);
+    } else {
+      menu.removeClass('invisible');
+      setTimeout(function() {
+        menu.removeClass('white');
+      }, 400);
+    }
+
+    if (scrollTop < 550) {
+      $('.right').removeClass('visible');
+    } else {
+      $('.right').addClass('visible');
     }
 
     lastScrollTop = scrollTop;

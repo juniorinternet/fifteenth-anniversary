@@ -47,9 +47,6 @@ body {
 a {
   text-decoration: none;
 }
-.responsiveMenuSelect {
-  display: none;
-}
 header {
   width: 100%;
   min-height: 580px;
@@ -97,7 +94,7 @@ header .title {
   -o-transition: all 0.3s;
   transition: all 0.3s;
 }
-.menu.white.invisible {
+.menu.invisible {
   top: -82px;
   -webkit-transition: top 0.3s;
   -moz-transition: top 0.3s;
@@ -282,7 +279,7 @@ header .title {
   left: 0;
   background: url('/wp-content/themes/juniorinternet/img/arrow.png') repeat-x;
   z-index: 3;
-} 
+}
 .main .inside {
   text-align: left;
   max-width: 600px;

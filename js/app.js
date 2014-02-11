@@ -18,15 +18,20 @@ $(document).ready(function() {
     var scrollTop = $(window).scrollTop();
 
     if (scrollTop > lastScrollTop) {
-      menu.addClass('white invisible');
+      menu.addClass('invisible');
     } else {
       menu.removeClass('invisible');
     }
 
-    if (scrollTop < 10) {
-      menu.removeClass('white');
-    } else if (scrollTop < 150) {
+    if (scrollTop > 20) {
+      setTimeout(function() {
+        menu.addClass('white');
+      }, 400);
+    } else {
       menu.removeClass('invisible');
+      setTimeout(function() {
+        menu.removeClass('white');
+      }, 400);
     }
 
     lastScrollTop = scrollTop;
