@@ -54,7 +54,7 @@ Template Name: comp
         </div>
         <div>
           <h4>JuniorErb</h4>
-          <p>Speciální cena pro web prospěšný místu vašeho bydliště. V rámci této speciální ceny probíhají i krajská kola a vyhlašují se první tři místa. (<a href="http://www.juniorinternet.cz/wp-content/uploads/2014/02/2014_juniorerb_reditele.pdf">Informace pro učitele a ředitele v PDF</a>)</p>
+          <p>Speciální cena pro web prospěšný místu vašeho bydliště. V rámci této speciální ceny probíhají i krajská kola a vyhlašují se první tři místa. (<a href="#junioerb-rules">Podrobná pravidla</a> <a href="http://www.juniorinternet.cz/wp-content/uploads/2014/02/2014_juniorerb_reditele.pdf">Informace pro učitele a ředitele v PDF</a>)</p>
         </div>
       </div>
       <div class="special-row">
