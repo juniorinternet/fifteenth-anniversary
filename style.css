@@ -317,6 +317,30 @@ header .title {
   position: relative;
   font-family: 'Roboto Slab', sans-serif;
 }
+.main .special-awards {
+  clear: both;
+}
+.main .special-awards p {
+  margin-bottom: 10px;
+}
+.main .special-awards h4 {
+  font-weight: bold;
+}
+@media (min-width: 959px) {
+  .special-row {
+    clear: both;
+  }
+  .special-row div {
+    width: 50%;
+    float: left;
+    padding: 0 15px;
+  }
+}
+.main .special-note {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
 .main .stars {
   width: 94px;
   height: 14px;
@@ -355,6 +379,13 @@ header .title {
 }
 .main .orange {
   color: #ff830a;
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 40px 0;
+}
+.main .comp-closing {
+  color: rgb(150, 144, 147);
   font-size: 20px;
   text-align: center;
   text-transform: uppercase;
