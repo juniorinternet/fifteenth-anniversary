@@ -266,6 +266,30 @@ header .title {
   right: -40px;
   cursor: pointer;
 }
+.section {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  transition: -webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
+}
+.section.menu-active {
+  -webkit-transform: translate3d(250px, 0px, 0px);
+  -moz-transform: translate3d(250px, 0px, 0px);
+  -o-transform: translate3d(250px, 0px, 0px);
+  -ms-transform: translate3d(250px, 0px, 0px);
+  transform: translate3d(250px, 0px, 0px);
+
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  transition: -webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
+}
 .main {
   background: url('/wp-content/themes/juniorinternet/img/bg.png');
   color: #c2b9cc;

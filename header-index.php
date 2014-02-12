@@ -80,7 +80,21 @@
   </div>
 </div>
 
-<header>
+<div class='resp-flag section'>
+  <h3 class='competition'>SOUTĚŽE</h3>
+  <h3>2014</h3>
+  <p>Porovnej své webové umění s vrstevníky! Na nejlepší čeká řada cen.</p>
+  <div class='icons'>
+    <a href=# class='icon money' data-icon='c'></a>
+    <a href=# class='icon airplane' data-icon='b'></a>
+    <a href=# class='icon document' data-icon='c'></a>
+    <a href=# class='icon users' data-icon='b'></a>
+  </div>
+  <a href='<?php echo get_permalink(45); ?>' class='join'>Chci soutěžit</a>
+  <div class='time-counter'>uzávěrka přihlášek 17. 2.</div>
+</div>
+
+<header class='section'>
   <div class='inside'>
     <h1 class='header-logo'>
       <div class='side left-side'>junior</div>

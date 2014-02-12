@@ -1,4 +1,4 @@
-<footer>
+<footer class='section'>
   <div class='light'>
     <div class='inside'>
       <p class='adress'>Junior Internet o.s., Šafaříkova 371/22, 120 00 Praha 2, IČ: 023 101 47</p>

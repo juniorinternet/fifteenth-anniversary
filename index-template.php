@@ -20,7 +20,7 @@ Template Name: index
 </div>
 
 
-<div class='intro'>
+<div class='intro section'>
   <div class='inside'>
     <p class='since'>SINCE 2000</p>
     <div class='line'></div>
@@ -52,7 +52,7 @@ Template Name: index
   </div>
 </div>
 
-<div class='winners'>
+<div class='winners section'>
   <div class='we-won'>
     <div class='stars'>
       <div class='star'>★</div>
@@ -77,7 +77,7 @@ Template Name: index
   </div>
 </div>
 
-<div class='main'>
+<div class='main section'>
   <div class='inside'>
     <h2>Partneři</h2>
     <span class='logo'>
@@ -126,7 +126,7 @@ Template Name: index
   </div>
 </div>
 
-<div class='register'>
+<div class='register section'>
   <div class='inside'>
     <h2 class='ready'><strong>Připraven vyhrát a vstoupit do dějin?</strong></h2>
     <div><a href='<?php echo get_permalink(45); ?>' class='button bot-btn'>Chci soutěžit</a></div>

@@ -356,12 +356,14 @@ header .rocket-start .right-cloud {
   -o-transition: opacity 0.5s 1.4s;
   transition: opacity 0.5s 1.4s;
 }
-.flag h3 {
+.flag h3, .resp-flag h3 {
   font-size: 26px;
   margin-bottom: 10px;
 }
 .flag .competition:before,
-.flag .competition:after {
+.flag .competition:after,
+.resp-flag .competition:before,
+.resp-flag .competition:after {
   content: '◼';
   font-size: 15px;
   color: #327a9d;
@@ -374,45 +376,56 @@ header .rocket-start .right-cloud {
   position: relative;
   top: -4px;
 }
-.flag .competition:before {
+.flag .competition:before,
+.resp-flag .competition:before {
   left: -20px;
 }
-.flag .competition:after {
+.flag .competition:after,
+.resp-flag .competition:after {
   right: -20px;
 }
-.flag p {
+.flag p,
+.resp-flag p {
   font-size: 16px;
   font-weight: bold;
   color: #6b74ad;
   margin: 31px 0 20px 0;
   line-height: 24px;
 }
-.flag .icons {
+.flag .icons,
+.resp-flag .icons {
   overflow: hidden;
 
   display: none;
 }
-.flag .icon {
+.flag .icon,
+.resp-flag .icon {
   float: left;
   margin-right: 17px;
   font-size: 30px;
 }
-.flag .icon:last-child {
+.flag .icon:last-child,
+.resp-flag .icon:last-child {
   margin-right: 0;
 }
-.flag .money {
+.flag .money,
+.resp-flag .money {
   color: #ff7800;
 }
-.flag .airplane {
+.flag .airplane,
+.resp-flag .airplane {
   color: #c82965;
 }
-.flag .document {
+.flag .document,
+.resp-flag .document {
   color: #1c8ceb;
 }
-.flag .users {
+.flag .users,
+.resp-flag .users {
   color: #ff7800;
 }
-.flag .join {
+.flag .join,
+.resp-flag .join {
   width: 180px;
   height: 47px;
   display: block;
@@ -431,7 +444,8 @@ header .rocket-start .right-cloud {
   margin: 140px 0 20px 0;
   opacity: 0;
 }
-.flag .join:hover {
+.flag .join:hover,
+.resp-flag .join:hover {
   color: white;
   background: #1b8beb;
   -webkit-transition: 0.2s color, 0.2s background;
@@ -439,7 +453,8 @@ header .rocket-start .right-cloud {
   -o-transition: 0.2s color, 0.2s background;
   transition: 0.2s color, 0.2s background;
 }
-.flag .time-counter {
+.flag .time-counter,
+.resp-flag .time-counter {
   font-weight: bold;
   opacity: 0;
   font-size: 14px;
@@ -447,6 +462,40 @@ header .rocket-start .right-cloud {
   -moz-transition: opacity 0.3s;
   -o-transition: opacity 0.3s;
   transition: opacity 0.3s;
+}
+.resp-flag {
+display: none;
+
+  width: 100%;
+  height: auto;
+  background: rgb(30, 34, 61);
+  text-align: center;
+  position: relative;
+  padding: 40px 0;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -o-transform: translateY(0);
+  -ms-transform: translateY(0);
+  transform: translateY(0);
+}
+.resp-flag h3 {
+  color: white;
+}
+.resp-flag p {
+  width: 170px;
+  margin: 30px auto;
+}
+.resp-flag .icons {
+  width: 180px;
+  margin: 0 auto;
+}
+.resp-flag .join {
+  opacity: 1;
+  margin: 30px auto 20px auto;
+}
+.resp-flag .time-counter {
+  opacity: 1;
+  color: white;
 }
 .menu {
   width: 100%;
@@ -660,6 +709,30 @@ header .rocket-start .right-cloud {
   top: 0;
   right: -40px;
   cursor: pointer;
+}
+.section {
+  -webkit-transform: translate3d(0px, 0px, 0px);
+  -moz-transform: translate3d(0px, 0px, 0px);
+  -o-transform: translate3d(0px, 0px, 0px);
+  -ms-transform: translate3d(0px, 0px, 0px);
+  transform: translate3d(0px, 0px, 0px);
+
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  transition: -webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
+}
+.section.menu-active {
+  -webkit-transform: translate3d(250px, 0px, 0px);
+  -moz-transform: translate3d(250px, 0px, 0px);
+  -o-transform: translate3d(250px, 0px, 0px);
+  -ms-transform: translate3d(250px, 0px, 0px);
+  transform: translate3d(250px, 0px, 0px);
+
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  transition: -webkit-transform 0.3s,-moz-transform 0.3s,-o-transform 0.3s,transform 0.3s;
 }
 .intro {
   color: white;
@@ -1328,7 +1401,7 @@ footer .dark .abdoc-cube {
     transform: scale(0.7);
     top: 21px;
     left: 50%;
-    margin-left: -225px;
+    margin-left: -238px;
   }
 }
 @media (max-width: 460px) {
@@ -1338,6 +1411,36 @@ footer .dark .abdoc-cube {
   }
 }
 @media (max-width: 399px) {
+  .flag { display: none; }
+  .resp-flag { display: block; }
+  header .header-logo {
+    -webkit-transform: scale(0.6);
+    -moz-transform: scale(0.6);
+    -o-transform: scale(0.6);
+    -ms-transform: scale(0.6);
+    transform: scale(0.6);
+    top: 21px;
+    left: 50%;
+    margin-left: -250px;
+  }
+  header .rocket-start .rocket-container {
+    left: 85px;
+  }
+  header .rocket-start.active .rocket-container {
+    left: 115px;
+  }
+  .intro h3 {
+    width: 220px;
+    height: 47px;
+    font-size: 20px;
+    line-height: 45px;
+  }
+  .intro h3 .squere {
+    font-size: 8px;
+    top: -5px;
+  }
+  .intro h3 .squere.right {margin-left: 20px;}
+  .intro h3 .squere.left {margin-right: 20px;}
   .winners {
     width: 200px;
   }
@@ -1356,6 +1459,19 @@ footer .dark .abdoc-cube {
     bottom: -70px;
   }
   .main .comp .partner.tyinternety {
+    background-size: contain;
+  }
+  footer .light .adress, footer .light p {
+    display: none;
+  }
+  footer .light h3 {
+    font-size: 25px;
+    line-height: 35px;
+    margin: 70px 0 0 0;
+  }
+}
+@media (max-width: 340px) {
+  .main .comp .partner.cznic {
     background-size: contain;
   }
 }

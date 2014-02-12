@@ -2,7 +2,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<div class='main'>
+<div class='main section'>
 	<div class='inside'>
 		<div class='stars'></div>
 		<?php the_content(__('(celý článek...)')); ?>

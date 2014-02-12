@@ -28,12 +28,15 @@ $(document).ready(function() {
 
 
   var respMenu = $('.resp-menu');
+  var section = $('.section');
 
   $('.menu-icon').on('click', function() {
     if(respMenu.hasClass('visible')) {
       respMenu.removeClass('visible');
+      section.removeClass('menu-active');
     } else {
       respMenu.addClass('visible');
+      section.addClass('menu-active');
     }
   });
 
