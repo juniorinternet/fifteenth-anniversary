@@ -727,10 +727,10 @@ footer .light h3 a:hover:after {
   -o-transition: width 0.4s;
   transition: width 0.4s;
 }
-footer .light a {
+footer .light .github {
   color: black;
 }
-footer .light a:hover {
+footer .light .github:hover {
   text-decoration: underline;
 }
 footer .dark {

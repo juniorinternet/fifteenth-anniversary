@@ -3,12 +3,12 @@
     <div class='inside'>
       <p class='adress'>Junior Internet o.s., Šafaříkova 371/22, 120 00 Praha 2, IČ: 023 101 47</p>
       <h3>Něco není jasné? <br> Napište nám na <a href='mailto:info@juniorinternet.cz'>info@juniorinternet.cz</a></h3>
-      <p>PS: Zdrojový kód tohoto webu najdete pod licencí CC share-alike na <a href='https://github.com/juniorinternet/fifteenth-anniversary'>Githubu</a></p>
+      <p>PS: Zdrojový kód tohoto webu najdete pod licencí CC share-alike na <a href='https://github.com/juniorinternet/fifteenth-anniversary' class='github'>Githubu</a></p>
     </div>
   </div>
   <div class='dark'>
     <div class='inside'>
-		<a href='http://abdoc.net'>made by <span class='abdoc-cube' data-icon='f'></span> <b>abdoc</b></a>
+    <a href='http://abdoc.net'>made by <span class='abdoc-cube' data-icon='f'></span> <b>abdoc</b></a>
     </div>
   </div>
 </footer>
