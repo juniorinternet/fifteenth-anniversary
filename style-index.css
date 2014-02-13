@@ -1310,12 +1310,6 @@ footer .dark .abdoc-cube {
   }
 }
 @media (max-width: 959px) {
-  .main .comp.general,
-  .main .comp.partners {
-    width: 100%;
-  }
-}
-@media (max-width: 959px) {
   .menu {
     opacity: 0;
     visibility: hidden;
