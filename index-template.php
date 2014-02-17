@@ -16,7 +16,7 @@ Template Name: index
     <a href=# class='icon users' data-icon='b'></a>
   </div>
   <a href='<?php echo get_permalink(45); ?>' class='join'>Chci soutěžit</a>
-  <div class='time-counter'>uzávěrka přihlášek 17. 2.</div>
+  <div class='time-counter'>přihlášky prodlouženy do 24. 2.</div>
 </div>
 
 
@@ -130,7 +130,7 @@ Template Name: index
   <div class='inside'>
     <h2 class='ready'><strong>Připraven vyhrát a vstoupit do dějin?</strong></h2>
     <div><a href='<?php echo get_permalink(45); ?>' class='button bot-btn'>Chci soutěžit</a></div>
-    <div class='time-counter'>uzávěrka přihlášek 17. 2.</div>
+    <div class='time-counter'>přihlášky prodlouženy do 24. 2.</div>
   </div>
 </div>
 

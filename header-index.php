@@ -91,7 +91,7 @@
     <a href=# class='icon users' data-icon='b'></a>
   </div>
   <a href='<?php echo get_permalink(45); ?>' class='join'>Chci soutěžit</a>
-  <div class='time-counter'>uzávěrka přihlášek 17. 2.</div>
+  <div class='time-counter'>přihlášky prodlouženy do 24. 2.</div>
 </div>
 
 <header class='section'>

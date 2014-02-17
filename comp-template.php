@@ -10,7 +10,7 @@ Template Name: comp
     <div class='stars'></div>
     <p class='age'>Na nejlepší čeká řada cen a přidají se ke špičkám českého internetu. Soutěž je věkově omezena do 18 let (včetně).</p>
     <a href='http://souteze.juniorinternet.cz/register/' class='button'>Chci soutěžit</a>
-    <p class='comp-closing'>Přihlášky končí 17. 2. 2014</p>
+    <p class='comp-closing'>Přihlášky prodlouženy do 24. 2. 2014</p>
     <div class='line'></div>
     <div class='orange'>Soutěžní disciplíny a ceny</div>
   </div>
