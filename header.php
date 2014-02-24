@@ -8,9 +8,10 @@
   <meta name="description" content="Odrazový můstek pro mladé internetové nadšence.">
   <meta name="author" content="Abdoc">
   <link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lato:300' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/wp-content/themes/juniorinternet/style.css" type="text/css" />
+  <link rel="stylesheet" href="/wp-content/themes/juniorinternet/style-sponsors.css" type="text/css" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
   <!-- Facebook -->

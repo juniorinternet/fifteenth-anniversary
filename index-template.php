@@ -77,7 +77,7 @@ Template Name: index
   </div>
 </div>
 
-<div class='main section'>
+<div class='main partners-section section'>
   <div class='inside'>
     <?php include 'sponsors.php'; ?>
   </div>

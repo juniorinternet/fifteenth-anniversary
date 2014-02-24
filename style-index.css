@@ -1093,65 +1093,6 @@ display: none;
   display: block;
   float: left;
 }
-.main .comp .vodafone {
-  background: url('/wp-content/themes/juniorinternet/img/vodafone.png') no-repeat center center;
-}
-.main .comp .cznic {
-  background: url('/wp-content/themes/juniorinternet/img/cznic.png') no-repeat center center;
-  background-size: contain;
-}
-.main .comp .ict {
-  background: url('/wp-content/themes/juniorinternet/img/ict.png') no-repeat center center;
-}
-.main .comp .active24 {
-  background: url('/wp-content/themes/juniorinternet/img/active24.png') no-repeat center center;
-}
-.main .comp .abdoc {
-  background: url('/wp-content/themes/juniorinternet/img/abdoc.png') no-repeat center center;
-}
-.main .comp .prusa {
-  background: url('/wp-content/themes/juniorinternet/img/prusa.png') no-repeat center center;
-}
-.main .comp .rozectise {
-  background: url('/wp-content/themes/juniorinternet/img/rozectise.png') no-repeat center center;
-}
-.main .comp .dobryweb {
-  background: url('/wp-content/themes/juniorinternet/img/dobryweb.png') no-repeat center center;
-}
-.main .comp .respekt {
-  background: url('/wp-content/themes/juniorinternet/img/respekt.png') no-repeat center center;
-}
-.main .comp .tyinternety {
-  background: url('/wp-content/themes/juniorinternet/img/tyinternety.png') no-repeat center center;
-  background-size: contain;
-}
-.main .comp .dvs {
-  background: url('/wp-content/themes/juniorinternet/img/dvs.png') no-repeat center center;
-}
-.main .comp .lupa {
-  background: url('/wp-content/themes/juniorinternet/img/lupa.png') no-repeat center center;
-}
-.main .comp .root {
-  background: url('/wp-content/themes/juniorinternet/img/root.png') no-repeat center center;
-}
-.main .comp .peoplecomm {
-  background: url('/wp-content/themes/juniorinternet/img/peoplecomm.png') no-repeat center center;
-}
-.main .comp .experienceu {
-  background: url('/wp-content/themes/juniorinternet/img/experienceu.png') no-repeat center center;
-}
-.main .comp .jsi {
-  background: url('/wp-content/themes/juniorinternet/img/jsi.png') no-repeat center center;
-}
-.main .comp .zavinac {
-  background: url('/wp-content/themes/juniorinternet/img/cesky-zavinac.png') no-repeat center center;
-}
-.main .comp .pl-kraj {
-  background: url('/wp-content/themes/juniorinternet/img/plzenskykraj.png') no-repeat center center;
-}
-.main .comp .praha {
-  background: url('/wp-content/themes/juniorinternet/img/praha.png') no-repeat center center;
-}
 .register {
   background: url('/wp-content/themes/juniorinternet/img/bg.png');
   position: relative;

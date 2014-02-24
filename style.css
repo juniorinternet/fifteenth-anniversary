@@ -629,65 +629,6 @@ background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARUAAADECAY
   display: block;
   float: left;
 }
-.partners-section .comp .vodafone {
-  background: url('/wp-content/themes/juniorinternet/img/vodafone.png') no-repeat center center;
-}
-.partners-section .comp .cznic {
-  background: url('/wp-content/themes/juniorinternet/img/cznic.png') no-repeat center center;
-  background-size: contain;
-}
-.partners-section .comp .ict {
-  background: url('/wp-content/themes/juniorinternet/img/ict.png') no-repeat center center;
-}
-.partners-section .comp .active24 {
-  background: url('/wp-content/themes/juniorinternet/img/active24.png') no-repeat center center;
-}
-.partners-section .comp .abdoc {
-  background: url('/wp-content/themes/juniorinternet/img/abdoc.png') no-repeat center center;
-}
-.partners-section .comp .prusa {
-  background: url('/wp-content/themes/juniorinternet/img/prusa.png') no-repeat center center;
-}
-.partners-section .comp .rozectise {
-  background: url('/wp-content/themes/juniorinternet/img/rozectise.png') no-repeat center center;
-}
-.partners-section .comp .dobryweb {
-  background: url('/wp-content/themes/juniorinternet/img/dobryweb.png') no-repeat center center;
-}
-.partners-section .comp .respekt {
-  background: url('/wp-content/themes/juniorinternet/img/respekt.png') no-repeat center center;
-}
-.partners-section .comp .tyinternety {
-  background: url('/wp-content/themes/juniorinternet/img/tyinternety.png') no-repeat center center;
-  background-size: contain;
-}
-.partners-section .comp .dvs {
-  background: url('/wp-content/themes/juniorinternet/img/dvs.png') no-repeat center center;
-}
-.partners-section .comp .lupa {
-  background: url('/wp-content/themes/juniorinternet/img/lupa.png') no-repeat center center;
-}
-.partners-section .comp .root {
-  background: url('/wp-content/themes/juniorinternet/img/root.png') no-repeat center center;
-}
-.partners-section .comp .peoplecomm {
-  background: url('/wp-content/themes/juniorinternet/img/peoplecomm.png') no-repeat center center;
-}
-.partners-section .comp .experienceu {
-  background: url('/wp-content/themes/juniorinternet/img/experienceu.png') no-repeat center center;
-}
-.partners-section .comp .jsi {
-  background: url('/wp-content/themes/juniorinternet/img/jsi.png') no-repeat center center;
-}
-.partners-section .comp .zavinac {
-  background: url('/wp-content/themes/juniorinternet/img/cesky-zavinac.png') no-repeat center center;
-}
-.partners-section .comp .pl-kraj {
-  background: url('/wp-content/themes/juniorinternet/img/plzenskykraj.png') no-repeat center center;
-}
-.partners-section .comp .praha {
-  background: url('/wp-content/themes/juniorinternet/img/praha.png') no-repeat center center;
-}
 footer .light {
   background: #ff7800;
   color: white;
