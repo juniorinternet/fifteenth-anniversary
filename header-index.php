@@ -82,17 +82,16 @@
 </div>
 
 <div class='resp-flag section'>
-  <h3 class='competition'>SOUTĚŽE</h3>
+  <h3 class='competition'>KONFERENCE</h3>
   <h3>2014</h3>
-  <p>Porovnej své webové umění s vrstevníky! Na nejlepší čeká řada cen.</p>
+  <p>Přijďte se podívat, kdo vyhraje 15. ročník Junior Internetu.</p>
   <div class='icons'>
     <a href=# class='icon money' data-icon='c'></a>
     <a href=# class='icon airplane' data-icon='b'></a>
     <a href=# class='icon document' data-icon='c'></a>
     <a href=# class='icon users' data-icon='b'></a>
   </div>
-  <a href='<?php echo get_permalink(45); ?>' class='join'>Chci soutěžit</a>
-  <div class='time-counter'>přihlášky prodlouženy do 24. 2.</div>
+  <a href='<?php echo get_permalink(73); ?>' class='join'>Chci přijít</a>
 </div>
 
 <header class='section'>

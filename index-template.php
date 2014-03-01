@@ -6,17 +6,17 @@ Template Name: index
 <?php get_header('index'); ?>
 
 <div class='flag'>
-  <h3 class='competition'>SOUTĚŽE</h3>
+  <h3 class='competition' style='font-size: 19px;'>KONFERENCE</h3>
   <h3>2014</h3>
-  <p>Porovnej své webové umění s vrstevníky! Na nejlepší čeká řada cen.</p>
+  <p>Přijďte se podívat, kdo vyhraje 15. ročník Junior Internetu.</p>
   <div class='icons'>
     <a href=# class='icon money' data-icon='c'></a>
     <a href=# class='icon airplane' data-icon='b'></a>
     <a href=# class='icon document' data-icon='c'></a>
     <a href=# class='icon users' data-icon='b'></a>
   </div>
-  <a href='<?php echo get_permalink(45); ?>' class='join'>Chci soutěžit</a>
-  <div class='time-counter'>přihlášky prodlouženy do 24. 2.</div>
+  <a href='<?php echo get_permalink(73); ?>' class='join'>Chci přijít</a>
+  <div class='time-counter'>15. 3., Fakulta informačních technologií v Praze</div>
 </div>
 
 
@@ -85,10 +85,10 @@ Template Name: index
 
 <div class='register section'>
   <div class='inside'>
-    <h2 class='ready'><strong>Připraven vyhrát a vstoupit do dějin?</strong></h2>
+    <!--<h2 class='ready'><strong>Připraven vyhrát a vstoupit do dějin?</strong></h2>
     <div><a href='<?php echo get_permalink(45); ?>' class='button bot-btn'>Chci soutěžit</a></div>
     <div class='time-counter'>přihlášky prodlouženy do 24. 2.</div>
-  </div>
+  </div>-->
 </div>
 
 <?php get_footer('index'); ?>

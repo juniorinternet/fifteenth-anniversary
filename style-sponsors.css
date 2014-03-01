@@ -5,6 +5,14 @@
   background: url('/wp-content/themes/juniorinternet/img/cznic.png') no-repeat center center;
   background-size: contain;
 }
+.partners-section .comp .fit {
+  background: url('/wp-content/themes/juniorinternet/img/fit.png') no-repeat center center;
+  background-size: contain;
+}
+.partners-section .comp .prostory h4 {
+  margin-top: -1.3em;
+  float: right;
+}
 .partners-section .comp .ict {
   background: url('/wp-content/themes/juniorinternet/img/ict.png') no-repeat center center;
 }

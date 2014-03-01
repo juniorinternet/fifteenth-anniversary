@@ -8,6 +8,10 @@
     <h4>Generální partneři</h4>
     <a href='http://nadacevodafone.cz/' class='partner vodafone'></a>
     <a href='http://nic.cz/' class='partner cznic'></a>
+    <div class="prostory">
+      <h4>Partner konference</h4>
+      <a href='https://www.fit.cvut.cz/' class='partner fit'></a>
+    </div>
   </div>
   <div class='comp'>
     <h4>Partneři</h4>
@@ -25,9 +29,9 @@
     <h4>Mediální partneři</h4>
     <a href='http://respekt.ihned.cz/' class='partner respekt'></a>
     <a href='http://www.tyinternety.cz/' class='partner tyinternety'></a>
-    <a href='http://www.juniorinternet.cz/www.dvs.cz' class='partner dvs'></a>
-    <a href='http://www.juniorinternet.cz/www.lupa.cz' class='partner lupa'></a>
-    <a href='http://www.juniorinternet.cz/www.root.cz' class='partner root'></a>
+    <a href='http://www.dvs.cz' class='partner dvs'></a>
+    <a href='http://www.lupa.cz' class='partner lupa'></a>
+    <a href='http://www.root.cz' class='partner root'></a>
   </div>
   <div class='comp'>
     <h4>Podporovatelé</h4>
