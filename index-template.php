@@ -16,7 +16,7 @@ Template Name: index
     <a href=# class='icon users' data-icon='b'></a>
   </div>
   <a href='<?php echo get_permalink(73); ?>' class='join'>Chci přijít</a>
-  <div class='time-counter'>15. 3., Fakulta informačních technologií v Praze</div>
+  <div class='time-counter'>15. 3., Fakulta informačních technologií ČVUT v Praze</div>
 </div>
 
 
