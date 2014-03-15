@@ -1096,6 +1096,8 @@ display: none;
 .register {
   background: url('/wp-content/themes/juniorinternet/img/bg.png');
   position: relative;
+
+  display: none;
 }
 .register:before {
   content: '';

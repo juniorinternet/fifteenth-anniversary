@@ -85,10 +85,10 @@ Template Name: index
 
 <div class='register section'>
   <div class='inside'>
-    <!--<h2 class='ready'><strong>Připraven vyhrát a vstoupit do dějin?</strong></h2>
+    <h2 class='ready'><strong>Připraven vyhrát a vstoupit do dějin?</strong></h2>
     <div><a href='<?php echo get_permalink(45); ?>' class='button bot-btn'>Chci soutěžit</a></div>
     <div class='time-counter'>přihlášky prodlouženy do 24. 2.</div>
-  </div>-->
+  </div>
 </div>
 
 <?php get_footer('index'); ?>
